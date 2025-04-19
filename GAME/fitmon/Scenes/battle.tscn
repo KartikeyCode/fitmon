@@ -1,7 +1,7 @@
 [gd_scene load_steps=15 format=3 uid="uid://ddtr36qj6ura0"]
 
 [ext_resource type="Texture2D" uid="uid://cb3i7h0l7nltw" path="res://Assets/background_glacial_mountains_lightened.png" id="1_1m285"]
-[ext_resource type="Script" path="res://Scripts/battle.gd" id="1_mb07o"]
+[ext_resource type="Script" uid="uid://cob70uuxexby2" path="res://Scripts/battle.gd" id="1_mb07o"]
 [ext_resource type="Texture2D" uid="uid://sh3baej7owy" path="res://Assets/Fantasy Battlers - Free/x2 size/01.png" id="2_w0k0b"]
 [ext_resource type="Resource" uid="uid://byp4sk6w51hvo" path="res://Resources/mob1.tres" id="2_wu26b"]
 [ext_resource type="PackedScene" uid="uid://dimoxwv18d2ph" path="res://Scenes/in_game_ui.tscn" id="3_xfe76"]
@@ -115,10 +115,10 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hdswp"]
 _data = {
-"RESET": SubResource("Animation_fepym"),
-"enemy_damaged": SubResource("Animation_xo0j2"),
-"enemy_death": SubResource("Animation_hchwu"),
-"screen_shake": SubResource("Animation_8fe2f")
+&"RESET": SubResource("Animation_fepym"),
+&"enemy_damaged": SubResource("Animation_xo0j2"),
+&"enemy_death": SubResource("Animation_hchwu"),
+&"screen_shake": SubResource("Animation_8fe2f")
 }
 
 [node name="Battle" type="Control"]
